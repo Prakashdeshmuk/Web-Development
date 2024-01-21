@@ -1,0 +1,38 @@
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: chocolate;
+    
+}
+
+
+
+fieldset
+{
+    background-color: orange;
+}
+
+.label
+{
+    color: white;
+}
+
+.Boxes
+{
+    background-color: cornsilk;
+}
+
+button
+{
+    color: coral;
+    background-color: darkorchid;
+}
+
+fieldset
+{
+    display: inline;
+}
+

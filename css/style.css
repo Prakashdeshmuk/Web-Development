@@ -1,0 +1,28 @@
+/* *
+{
+    background-color: magenta;
+}  this is universal selector*/
+
+h2{
+    color:orange;
+}
+
+p{
+    color: burlywood;
+    display: inline;
+    background-color: blue;
+}
+
+button
+{
+    color: chocolate;
+    background-color: aquamarine;
+}
+
+body
+{
+    /* background-color:rgb(200,255,0); */
+    /* background-color: #ff0000; red colour set to background*/
+    background-color: #ffff00;
+}
+

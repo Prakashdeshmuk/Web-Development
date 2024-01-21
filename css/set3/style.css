@@ -1,0 +1,37 @@
+h1{
+    background-color: orange;
+    height: 100px;
+    width: 200px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+    text-align: center;
+    border-radius: 6%;
+
+}
+
+p
+{
+    background-color: chocolate;
+    border-width: 2px;
+    border-style: dotted;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border-radius: 5%; */
+    padding: 50px;
+
+}
+
+
+#traffic
+{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+}
+#Redlight
+{
+    background-color: red;
+    border-radius: 100%;
+
+}

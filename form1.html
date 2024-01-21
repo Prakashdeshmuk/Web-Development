@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form >
@@ -12,21 +13,21 @@
             <h1>
                 Event Registration
             </h1>
-            <label for="Name">Name:</label>
+            <label class="label" for="Name">Name:</label>
             <br/>
-            <input type="text" id="Name" placeholder="Enter The Name">
+            <input class="Boxes" type="text" id="Name" placeholder="Enter The Name">
             <br>
-            <label for="Email">Email:</label>
+            <label class="label" for="Email">Email:</label>
             <br/>
-            <input type="email" id="Email" placeholder="Enter The Email">
+            <input class="Boxes" type="email" id="Email" placeholder="Enter The Email">
             <br>
-            <label for="Phone">Phone:</label>
+            <label class="label" for="Phone">Phone:</label>
             <br/>
-            <input type="tel" id="Phone" placeholder="Enter The Mobile Number">
+            <input class="Boxes" type="tel" id="Phone" placeholder="Enter The Mobile Number">
             <br>
-            <label for="Occupation">Occupation:</label>
+            <label class="label" for="Occupation">Occupation:</label>
             <br>
-            <select name="Occupation" id="Occupation">
+            <select class="Boxes"  name="Occupation" id="Occupation">
                 <option value="Farmer">Farmer</option>
                 <option value="Engineer">Engineer</option>
                 <option value="Doctor">Doctor</option>
@@ -34,20 +35,21 @@
     
             <br>
             <fieldset>
-                <legend>Topics Of Interest</legend>
-            <label for="html">HTML</label>
-            <input type="checkbox" id="html">
+                <legend class="label">Topics Of Interest</legend>
+            <label class="label" for="html">HTML</label>
+            <input class="Boxes" type="checkbox" id="html">
             <br>
-            <label for="CSS">CSS</label>
+            <label class="label" for="CSS">CSS</label>
             <input type="checkbox" id="CSS">
             <br>
-            <label for="javascript">JAVASCRIPT</label>
+            <label class="label" for="javascript">JAVASCRIPT</label>
             <input type="checkbox" id="javascript">
             <br>
             </fieldset>
-            <label for="comment">Comments</label>
             <br>
-            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Give feedback"></textarea>
+            <label class="label" for="comment">Comments</label>
+            <br>
+            <textarea class="Boxes" name="comment" id="comment" cols="30" rows="10" placeholder="Give feedback"></textarea>
             <button>Register</button>
         </fieldset>
 
